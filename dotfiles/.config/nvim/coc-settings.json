@@ -1,0 +1,19 @@
+{
+  "coc.preferences.enableFloatHighlight": false,
+  "suggest.autoTrigger": "always",
+  "suggest.noselect": true,
+  "diagnostic.enable": true,
+  "javascript.suggestionActions.enabled": false,
+  "languageserver": {
+    "terraform-ls": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "rootPatterns": ["Makefile", ".git"],
+    }
+  },
+  "yaml.schemas": {
+    "kubernetes": "/kubernetes/*",
+    "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta5.json": "/skaffold.yaml"
+  }
+}
